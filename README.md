@@ -14,8 +14,6 @@
 
 ### Amazon Linux 2
 
-- [@libphp/amazon-linux-2-v72](libs/amazon-linux-2-v72) - PHP 7.2
-- [@libphp/amazon-linux-2-v73](libs/amazon-linux-2-v73) - PHP 7.3
 - [@libphp/amazon-linux-2-v74](libs/amazon-linux-2-v74) - PHP 7.4
 - [@libphp/amazon-linux-2-v80](libs/amazon-linux-2-v80) - PHP 8.0
 - [@libphp/amazon-linux-2-v81](libs/amazon-linux-2-v81) - PHP 8.1
@@ -29,6 +27,12 @@
 ### AlmaLinux 9 (EL9)
 
 - [@libphp/almalinux-9-v85](libs/almalinux-9-v85) - PHP 8.5
+
+### Archived Versions
+
+The following versions have been archived and are no longer actively maintained:
+- [@libphp/amazon-linux-2-v72](archive/amazon-linux-2-v72) - PHP 7.2 (archived)
+- [@libphp/amazon-linux-2-v73](archive/amazon-linux-2-v73) - PHP 7.3 (archived)
 
 ## ⚙️ Usage
 

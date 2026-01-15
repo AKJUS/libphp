@@ -1,0 +1,21 @@
+{
+  "name": "amazon-linux-2-v74",
+  "sourceRoot": "libs/amazon-linux-2-v74",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build",
+        "cwd": "libs/amazon-linux-2-v74"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm test",
+        "cwd": "libs/amazon-linux-2-v74"
+      }
+    }
+  }
+}

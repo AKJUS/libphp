@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: '22.x'
 
       - name: Dependencies
         run: |
@@ -20,7 +20,7 @@ jobs:
           npm run bootstrap
 
       - name: Build
-        run: npx lerna run build --stream
+        run: npm run build
 
       - name: Tests
-        run: npx lerna run test --stream
+        run: npm run test

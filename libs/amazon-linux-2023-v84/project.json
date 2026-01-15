@@ -1,0 +1,21 @@
+{
+  "name": "amazon-linux-2023-v84",
+  "sourceRoot": "libs/amazon-linux-2023-v84",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build",
+        "cwd": "libs/amazon-linux-2023-v84"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm test",
+        "cwd": "libs/amazon-linux-2023-v84"
+      }
+    }
+  }
+}

@@ -1,9 +1,12 @@
 {
   "name": "libphp-php-monorepo",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@nx/js": "^22.3.3",
+    "nx": "^22.3.3"
   },
   "scripts": {
-    "bootstrap": "npx lerna exec npm install"
+    "bootstrap": "npm install",
+    "build": "nx run-many --target=build --all",
+    "test": "nx run-many --target=test --all"
   }
 }
