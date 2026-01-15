@@ -11,6 +11,14 @@
     "native"
   ],
   "devDependencies": {
-    "jest": "^26.1.0"
+    "jest": "^30.0.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/**/*.js"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
