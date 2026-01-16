@@ -15,9 +15,9 @@ jobs:
           node-version: '22.x'
 
       - name: Dependencies
-        run: |
-          npm install
-          npm run bootstrap
+        run: npm install
+      - name: Bootstrap
+        run: npm run bootstrap
 
       - name: Build
         run: npm run build

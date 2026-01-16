@@ -3,6 +3,13 @@
   "sourceRoot": "libs/amazon-linux-2-v82",
   "projectType": "library",
   "targets": {
+    "install": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm install",
+        "cwd": "libs/amazon-linux-2-v82"
+      }
+    },
     "build": {
       "executor": "nx:run-commands",
       "options": {
